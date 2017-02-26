@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/firstandthird/taskkit-analyze#readme",
   "dependencies": {
+    "humanize": "0.0.9",
     "source-map-explorer": "^1.3.3",
     "taskkit-task": "0.0.14"
   }
