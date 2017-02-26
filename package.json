@@ -1,0 +1,30 @@
+{
+  "name": "taskkit-analyze",
+  "version": "0.0.1",
+  "description": "Analyze output files to see how your bundle is created",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/taskkit-analyze.git"
+  },
+  "keywords": [
+    "sourcemap",
+    "analyze",
+    "bundle",
+    "size",
+    "taskkit"
+  ],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/taskkit-analyze/issues"
+  },
+  "homepage": "https://github.com/firstandthird/taskkit-analyze#readme",
+  "dependencies": {
+    "source-map-explorer": "^1.3.3",
+    "taskkit-task": "0.0.14"
+  }
+}
