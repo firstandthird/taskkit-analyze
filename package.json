@@ -28,7 +28,7 @@
     "glob": "7.1.1",
     "humanize": "0.0.9",
     "source-map-explorer": "^1.3.3",
-    "taskkit-task": "0.0.14"
+    "taskkit-task": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "3.16.1",
