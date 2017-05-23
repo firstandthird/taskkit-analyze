@@ -1,6 +1,6 @@
 {
   "name": "taskkit-analyze",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Analyze output files to see how your bundle is created",
   "main": "index.js",
   "scripts": {
