@@ -6,6 +6,10 @@ const humanize = require('humanize');
 const glob = require('glob');
 
 class AnalyzerTask extends TaskkitTask {
+  // returns the module to load when running in a separate process:
+  get classModule() {
+    return path.join(__dirname, 'index.js');
+  }
   execute(done) {
     if (typeof this.options.files === 'string') {
       glob(this.options.files, (err, files) => {
